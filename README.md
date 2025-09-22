@@ -30,4 +30,3 @@ image = cv2.imread('./your_image.jpg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 label = model.predict(image=image)['label']
 print('Image label is: ', label)
-
